@@ -1,0 +1,66 @@
+Arduino dikatakan sebagai sebuah platform dari physical computing yang bersifat open
+source. Pertama-tama perlu dipahami bahwa kata “platform” di sini adalah sebuah pilihan
+kata yang tepat. Arduino tidak hanya sekedar sebuah alat pengembangan, tetapi ia adalah
+kombinasi dari hardware, bahasa pemrograman dan Integrated Development Environment
+(IDE) yang canggih.
+IDE adalah sebuah software yang sangat berperan untuk menulis program,
+mengcompile menjadi kode biner dan meng-upload ke dalam memory microcontroller. Ada
+banyak projek dan alat-alat dikembangkan oleh akademisi dan profesional dengan
+menggunakan Arduino, selain itu juga ada banyak modul-modul pendukung (sensor,
+tampilan, penggerak dan sebagainya) yang dibuat oleh pihak lain untuk bisa disambungkan
+dengan Arduino. Arduino berevolusi menjadi sebuah platform karena ia menjadi pilihan dan
+acuan bagi banyak praktisi.
+Salah satu yang membuat Arduino memikat hati banyak orang adalah karena sifatnya
+yang open source, baik untuk hardware maupun software-nya. Diagram rangkaian elektronik
+Arduino digratiskan kepada semua orang. Anda bisa bebas men-download gambarnya,
+membeli komponen-komponennya, membuat PCB-nya dan merangkainya sendiri tanpa harus
+membayar kepada para pembuat Arduino. Sama halnya dengan IDE Arduino yang bisa
+didownload dan diinstal pada komputer secara gratis. Kita patut berterima kasih kepada tim
+Arduino yang sangat dermawan membagi-bagikan kemewahan hasil kerja keras mereka 
+Arduino dikembangkan oleh sebuah tim yang beranggotakan orang-orang dari berbagai
+belahan dunia. Anggota inti dari tim ini adalah:
+• Massimo Banzi Milano, Italy
+• David Cuartielles Malmoe, Sweden
+• Tom Igoe New York, US
+• Gianluca Martino Torino, Italy
+• David A. Mellis Boston, MA, USA
+Profil mengenai anggota tim tersebut dan kontribusinya bisa diakses pada situs web
+http://www.arduino.cc/playground/Main/People.
+Saat ini komunitas Arduino berkembang dengan pesat dan dinamis di berbagai belahan
+dunia. Bermacam-macam kegiatan yang berkaitan dengan projek-projek Arduino
+bermunculan dimana-mana, termasuk di Indonesia. Yang membuat Arduino dengan cepat
+diterima oleh orang-orang adalah :
+• Murah, dibandingkan platform yang lain.
+• Lintas platform, software Arduino dapat dijalankan pada system operasi Windows,
+Macintosh OSX dan Linux.
+• Sangat mudah dipelajari dan digunakan. Processing adalah bahasa pemrograman
+yang digunakan untuk menulis program di dalam Arduino. Untuk mengenal
+Processing lebih lanjut, silakan mengunjungi situs web-nya di
+http://www.processing.org.
+• Sistem yang terbuka, baik dari sisi hardware maupun software-nya.
+• Arduino diperuntukan bagi seniman, perancang dan penemu. 
+1. Hardware - papan input/output (I/O)
+2. Software - Software Arduino meliputi IDE untuk menulis program, driver untuk
+koneksi dengan komputer, contoh program dan library untuk pengembangan program.
+Komponen utama di dalam papan Arduino UNO R3 adalah sebuah microcontroller 8 bit
+dengan merk ATmega yang dibuat oleh perusahaan Atmel Corporation. Berikut adalah blok
+sederhana dari Arduino UNO R3 :
+Blok-blok didalam arduino UNO R3 adalah sebagai berikut:
+• Universal Asynchronous Receiver/Transmitter (UART) adalah antar muka yang
+digunakan untuk komunikasi serial seperti pada RS-232, RS-422 dan RS-485.
+• 2KB RAM pada memory kerja bersifat volatile (hilang saat daya dimatikan),
+digunakan oleh variable-variabel di dalam program.
+• 32KB RAM flash memory bersifat non-volatile, digunakan untuk menyimpan
+program yang dimuat dari komputer. Selain program, flash memory juga menyimpan
+bootloader. Bootloader adalah program inisiasi yang ukurannya kecil, dijalankan oleh
+CPU saat daya dihidupkan. Setelah bootloader selesai dijalankan, berikutnya program
+di dalam RAM akan dieksekusi.
+• 1KB EEPROM bersifat non-volatile, digunakan untuk menyimpan data yang tidak
+boleh hilang saat daya dimatikan. Tidak digunakan pada papan Arduino.
+• Central Processing Unit (CPU), bagian dari microcontroller untuk menjalankan setiap
+instruksi dari program.
+• Port input/output, pin-pin untuk menerima data (input) digital atau analog, dan
+mengeluarkan data (output) digital atau analog.
+• Setelah mengenal bagian-bagian utama dari microcontroller ATmega sebagai
+komponen utama, selanjutnya kita akan mengenal bagian-bagian dari papan Arduino
+itu sendiri. 
